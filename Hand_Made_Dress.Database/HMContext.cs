@@ -7,6 +7,7 @@ namespace Hand_Made_Dress.Database
     {
         public HMContext():base("DefaultConnection")
         {
+
         }
 
         public DbSet<Products> Productses { get; set; }
